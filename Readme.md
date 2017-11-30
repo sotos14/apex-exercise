@@ -14,3 +14,13 @@ To deploy the code in an org
 
 NOTE: You do not need to provide an API Security Token with your password if your IP Adress is whitelisted in the org. 
 
+## Execution
+
+The entry point of the application is the Exercise.cls
+
+You can execute a command by running the following in the AnnonymousApex Console
+``` java
+String resultedPosition = new Exercise().movePiece('MMMMM');
+System.debug(resultedPosition);
+```
+
