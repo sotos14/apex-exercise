@@ -9,7 +9,7 @@ To deploy the code in an org
 
 - Create a ```local.build.properties``` file at the root directory and specify the credentials (email for username, password and security token for the password field):
     - sf.username=yourusername
-    - sf.password=yourpassword
+    - sf.password=yourpasswordandapisecuritytoken
 - in the terminal at the root directory of the project run: ```ant deploy```
 
 NOTE: You do not need to provide an API Security Token with your password if your IP Adress is whitelisted in the org. 
