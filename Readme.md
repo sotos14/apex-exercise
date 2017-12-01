@@ -8,8 +8,8 @@ The code is a solution to an Apex Exercise. It uses the Apex Mocks Framework for
 To deploy the code in an org
 
 - Create a ```local.build.properties``` file at the root directory and specify the credentials (email for username, password and security token for the password field):
-    - sf.username=yourusername
-    - sf.password=yourpasswordandapisecuritytoken
+    - sf.username=your_username
+    - sf.password=your_password_and_api_security_token
 - in the terminal at the root directory of the project run: ```ant deploy```
 
 NOTE: You do not need to provide an API Security Token with your password if your IP Adress is whitelisted in the org. 
